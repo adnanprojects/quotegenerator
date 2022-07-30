@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(images/pic.jpg) no-repeat center center/cover;
+}
+
+.container {
+  width: 550px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 1.7rem;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  size: 1.7rem;
+}
+
+hr {
+  color: white;
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 2px;
+  box-shadow: 0 10px 20px 1px;
+}
+
+.main {
+  padding: 50px 40px;
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 5px;
+  overflow: visible;
+}
+
+.main .text-area {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.main .people {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: orangered;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.button .new-quote {
+  font-size: 1.1rem;
+  color: white;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.button .new-quote:hover {
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+}
